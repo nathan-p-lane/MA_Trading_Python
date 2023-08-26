@@ -17,7 +17,12 @@ The script iterates through each parameter value (MA window) in the 'Calib' Data
 ![image](https://github.com/nathan-p-lane/MA_trading_python/assets/141770222/8a27e57c-3069-444e-b2c4-ada8171d966f)
 
 ## Visualizing Calibration Results
-To visualize the calibration results and determine which MA window maximizes the annualized Sharpe Ratio, I used Matplotlib. There are three plots generated: mean, standard deviation, and annualized Sharpe Ratio for different moving average window sizes.  
+To visualize the calibration results and determine which MA window maximizes the annualized Sharpe Ratio, I used Matplotlib. There are three plots generated: mean, standard deviation, and annualized Sharpe Ratio for different moving average window sizes. 
+
+![image](https://github.com/nathan-p-lane/MA_trading_python/assets/141770222/0fd8c142-630b-40d0-9e99-1a4617e910aa)
+
+Additionally, the following visualization summarizes when I make trades using a calibrated MA trading strategy and at what price: 
+
 
 ## Concluding Remarks
 This script demonstrates the implementation and analysis of a moving average trading strategy using historical stock price data. By following the step-by-step process and analyzing the provided visualizations, you can gain insights into how the strategy performs and compare it to a simple buy-and-hold strategy. 
