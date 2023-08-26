@@ -27,6 +27,12 @@ Additionally, the following visualization summarizes when I make trades using a 
 
 Lastly, here comes my epic failure when it comes to my trading strategy:
 
+![image](https://github.com/nathan-p-lane/MA_trading_python/assets/141770222/72d8fbe0-3bed-4cfe-bbae-36ee54d5d839)
+
+## Why Did I Fail?
+The performance of our calibrated trading strategy (MA) was extremely poor, and lost tons more money than BnH. The performance of a moving average strategy is highly dependent on the market conditions during the time period being evaluated. If the market experiences long periods of trending behavior, then a moving average strategy can perform well. However, if the market experiences a lot of volatility or choppy trading, then a moving average strategy can result in many false signals, leading to poor performance. 
+
+For the case of Johnson & Johnson, its 5-year historical data looks very volatile at first glance. This could be a reason why our MA strategy did so poorly compared to the BnH. Secondly, a shorter MA window size will produce more trading signals, but also more false signals, while a longer MA window size will produce fewer signals, but with more significant lag. If the MA window size is not optimized for the specific market conditions being evaluated, then the strategy may not perform well. The window size of 25 we chose for the 5-year data is relatively short, so there were probably tons of false signals which lead to poor performance. 
 
 
 ## Concluding Remarks
