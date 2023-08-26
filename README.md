@@ -23,6 +23,11 @@ To visualize the calibration results and determine which MA window maximizes the
 
 Additionally, the following visualization summarizes when I make trades using a calibrated MA trading strategy and at what price: 
 
+![image](https://github.com/nathan-p-lane/MA_trading_python/assets/141770222/d670c4be-77ff-40b8-a79b-cf7c2bd9146f)
+
+Lastly, here comes my epic failure when it comes to my trading strategy:
+
+
 
 ## Concluding Remarks
 This script demonstrates the implementation and analysis of a moving average trading strategy using historical stock price data. By following the step-by-step process and analyzing the provided visualizations, you can gain insights into how the strategy performs and compare it to a simple buy-and-hold strategy. 
