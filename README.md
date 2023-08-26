@@ -14,5 +14,10 @@ The range of moving averages to be calibrated is defined, ranging from a 5-day M
 
 The script iterates through each parameter value (MA window) in the 'Calib' DataFrame. For each value, I calculate the moving average, identify buy/sell signals based on the relationship between closing price and moving average, and simulate trades accordingly. The portfolio's performance metrics are also calculated and recorded in the 'Calib' DataFrame. Namely, the mean, standard deviation, Sharpe ratio, and annualized Sharpe ratio of daily profit or loss.
 
+![image](https://github.com/nathan-p-lane/MA_trading_python/assets/141770222/8a27e57c-3069-444e-b2c4-ada8171d966f)
+
+## Visualizing Calibration Results
+To visualize the calibration results and determine which MA window maximizes the annualized Sharpe Ratio, I used Matplotlib. There are three plots generated: mean, standard deviation, and annualized Sharpe Ratio for different moving average window sizes.  
+
 ## Concluding Remarks
 This script demonstrates the implementation and analysis of a moving average trading strategy using historical stock price data. By following the step-by-step process and analyzing the provided visualizations, you can gain insights into how the strategy performs and compare it to a simple buy-and-hold strategy. 
