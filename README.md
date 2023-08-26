@@ -5,6 +5,7 @@ This repository contains a Python script that demonstrates the implementation an
 ## Loading and Preprocessing Data
 Firstly, I loaded in Johnson & Johnson historical stock data from NASDAQ over a 5 year period using Pandas. Then, I perform various preprocessing steps to clean and format the data. Dates are converted to the datetime format, columns are renamed, and unnecessary characters (dollar signs) are removed from numeric columns.
 
+![image](https://github.com/nathan-p-lane/MA_trading_python/assets/141770222/2fa80651-5ecc-4280-99bf-12c9a81c699a)
 
 
 
